@@ -1,0 +1,413 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Sección de Bienvenida */
+.bienvenida {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bienvenida h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.bienvenida p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Sección de Resumen */
+.resumen {
+    margin-bottom: 40px;
+}
+
+.resumen h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resumen-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.card .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Sección de Acciones Rápidas */
+.acciones-rapidas {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.acciones-rapidas h2 {
+    margin-bottom: 20px;
+}
+
+.acciones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-accion {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.btn-accion:hover {
+    background-color: #219653;
+}
+
+
+
+
+/*AQUIII INICIA EL HEADERRRRR*/
+
+/* Estilos generales del header */
+header {
+    background-color: #2c3e50; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos del título */
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Estilos de la barra de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre elementos */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #34495e; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        padding: 8px 12px;
+        display: block;
+    }
+}
+
+
+
+
+/* esta es la del footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+
+/* Estilos generales del footer */
+footer {
+    background-color: #2c3e50; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 40px 0 20px 0;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #34495e; /* Línea decorativa */
+    padding-bottom: 5px;
+}
+
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #3498db; /* Color al pasar el mouse */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #34495e; /* Línea decorativa */
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+    }
+
+    .footer-section h3 {
+        border-bottom: none;
+    }
+}
+
+
+
+/* Estilos para las imágenes en las tarjetas */
+.card-img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 150px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para cubrir el espacio sin distorsionar */
+    border-radius: 8px 8px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor */
+    text-align: center;
+}
+
+.card h3 {
+    margin: 15px 0 10px 0;
+}
+
+.card p {
+    padding: 0 15px;
+    color: #666;
+}
+
+.card .btn {
+    display: inline-block;
+    margin: 15px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+/* Estilos generales del header */
+header {
+    background-color: #2c3e50; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre el logo y el contenido */
+}
+
+/* Estilos para el logo */
+.logo img {
+    max-height: 60px; /* Altura máxima del logo */
+    width: auto; /* Ancho automático para mantener la proporción */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilos para el contenido del header (título y navegación) */
+.header-content {
+    flex: 1; /* Ocupa el espacio restante */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre el título y la navegación */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Estilos de la barra de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre elementos */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #34495e; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo img {
+        max-height: 30px; /* Reducir la altura a la mitad (original era 60px) */
+        width: auto; /* Mantener la proporción */
+        border-radius: 4px; /* Bordes redondeados */
+    }
+
+    .header-content {
+        gap: 5px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        padding: 8px 12px;
+        display: block;
+    }
+}
+
+
+
+
+
