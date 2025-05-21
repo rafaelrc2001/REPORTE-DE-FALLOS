@@ -1,0 +1,107 @@
+/* Estilos para el listado de fallos */
+.listado-fallos {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.listado-fallos h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.listado-fallos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.listado-fallos th,
+.listado-fallos td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.listado-fallos th {
+    background-color: #2c3e50;
+    color: #fff;
+    font-weight: bold;
+}
+
+.listado-fallos tr:hover {
+    background-color: #f5f5f5;
+}
+
+.listado-fallos .acciones a {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+.listado-fallos .btn-ver {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.listado-fallos .btn-ver:hover {
+    background-color: #2980b9;
+}
+
+.listado-fallos .btn-editar {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.listado-fallos .btn-editar:hover {
+    background-color: #e67e22;
+}
+
+.listado-fallos .btn-reportar {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.listado-fallos .btn-reportar:hover {
+    background-color: #219653;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .listado-fallos table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .listado-fallos th,
+    .listado-fallos td {
+        padding: 10px;
+    }
+
+    .listado-fallos .btn-reportar {
+        width: 100%;
+        text-align: center;
+    }
+}

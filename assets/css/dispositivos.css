@@ -1,0 +1,226 @@
+/* Estilos para el listado de dispositivos */
+.listado-dispositivos {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.listado-dispositivos h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Estilos para el botón de agregar dispositivo */
+.acciones {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.btn-agregar {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-agregar:hover {
+    background-color: #219653;
+}
+
+/* Estilos para la tabla de dispositivos */
+.tabla-dispositivos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabla-dispositivos th,
+.tabla-dispositivos td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-dispositivos th {
+    background-color: #2c3e50;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tabla-dispositivos tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Estilos para los botones de acciones */
+.acciones a {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+.btn-editar {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-editar:hover {
+    background-color: #2980b9;
+}
+
+.btn-eliminar {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.btn-eliminar:hover {
+    background-color: #c0392b;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .tabla-dispositivos {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .acciones {
+        text-align: center;
+    }
+
+    .btn-agregar {
+        display: block;
+        margin: 0 auto 10px auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tabla-dispositivos th,
+    .tabla-dispositivos td {
+        padding: 10px;
+    }
+
+    .acciones a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
+
+/* Estilos para el formulario de registro */
+.registrar-dispositivo {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registrar-dispositivo h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.registrar-dispositivo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.registrar-dispositivo input[type="text"],
+.registrar-dispositivo input[type="date"],
+.registrar-dispositivo select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+.registrar-dispositivo input[type="text"]:focus,
+.registrar-dispositivo input[type="date"]:focus,
+.registrar-dispositivo select:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.registrar-dispositivo button {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registrar-dispositivo button:hover {
+    background-color: #219653;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .registrar-dispositivo {
+        padding: 15px;
+    }
+
+    .registrar-dispositivo h2 {
+        font-size: 1.5em;
+    }
+
+    .registrar-dispositivo input[type="text"],
+    .registrar-dispositivo input[type="date"],
+    .registrar-dispositivo select {
+        font-size: 0.9em;
+    }
+
+    .registrar-dispositivo button {
+        font-size: 0.9em;
+    }
+}
+
+.btn-listado {
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-listado:hover {
+    background-color: #2980b9; /* Azul más oscuro al pasar el cursor */
+}

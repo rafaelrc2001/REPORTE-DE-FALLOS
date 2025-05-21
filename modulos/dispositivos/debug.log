@@ -1,0 +1,172 @@
+Datos recibidos:
+Array
+(
+    [nombre] => CDC1-C267
+    [tipo] => computadora
+    [fecha] => 2025-05-02
+    [estado] => en_reparacion
+    [ubicacion] => centro de computo 2
+)
+
+Estado recibido: en_reparacion
+Datos recibidos:
+Array
+(
+    [nombre] => CDC1-C444
+    [tipo] => computadora
+    [fecha] => 2025-05-03
+    [estado] => En Reparación
+    [ubicacion] => Taller de Sistemas
+)
+
+Estado recibido: En Reparación
+Datos recibidos:
+Array
+(
+    [nombre] => SERV-124
+    [tipo] => servidor
+    [fecha] => 2025-05-03
+    [estado] => Dado de Baja
+    [ubicacion] => Taller de Sistemas
+)
+
+Estado recibido: Dado de Baja
+Datos recibidos:
+Array
+(
+    [nombre] => SERV-543
+    [tipo] => servidor
+    [fecha] => 2025-05-02
+    [estado] => Activo
+    [ubicacion] => Data Center
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => CDC1-C9
+    [tipo] => computadora
+    [fecha] => 2025-05-12
+    [estado] => Activo
+    [ubicacion] => centro de computo 4
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => CDC1-C48
+    [tipo] => computadora
+    [fecha] => 2025-05-07
+    [estado] => Activo
+    [ubicacion] => Taller de Sistemas
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => IMP-Taller
+    [tipo] => impresora
+    [fecha] => 2025-05-12
+    [estado] => Activo
+    [ubicacion] => Direccion
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => Router-123
+    [tipo] => router
+    [fecha] => 2025-05-12
+    [estado] => Activo
+    [ubicacion] => Data Center
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => Swt-453
+    [tipo] => switch
+    [fecha] => 2025-05-13
+    [estado] => Activo
+    [ubicacion] => Data Center
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => Moni-583
+    [tipo] => monitor
+    [fecha] => 2025-05-13
+    [estado] => Activo
+    [ubicacion] => centro de computo 1
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => Router-564
+    [tipo] => router
+    [fecha] => 2025-05-12
+    [estado] => Activo
+    [ubicacion] => Data Center
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => Computadora
+    [tipo] => computadora
+    [fecha] => 2025-05-12
+    [estado] => Activo
+    [ubicacion] => centro de computo 2
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => CDC1-C79
+    [tipo] => computadora
+    [fecha] => 2025-05-19
+    [estado] => Activo
+    [ubicacion] => centro de computo 4
+    [n_serie] => 235123
+    [marca] => HP
+    [modelo] => 2016
+    [licencia_software] => Windows
+    [fecha_venc_licencia] => 2025-05-18
+    [seguro_activo] => 1
+    [fecha_venc_seguro] => 2029-12-18
+    [responsable] => Ingeniero Andres
+    [observaciones] => Computadora nueva
+)
+
+Estado recibido: Activo
+Datos recibidos:
+Array
+(
+    [nombre] => CDC1-C77
+    [tipo] => computadora
+    [fecha] => 2025-05-18
+    [estado] => Activo
+    [ubicacion] => centro de computo 4
+    [n_serie] => 235123
+    [marca] => HP
+    [modelo] => 2016
+    [licencia_software] => Windows
+    [fecha_venc_licencia] => 2025-05-31
+    [seguro_activo] => 1
+    [fecha_venc_seguro] => 2025-05-29
+    [responsable] => Ingeniero Andres
+    [observaciones] => El seguro que tiene es por parte de una empresa.
+)
+
+Estado recibido: Activo
