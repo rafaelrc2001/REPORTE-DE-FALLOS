@@ -63,8 +63,8 @@ Aquí puedes agregar imágenes de tu sistema. Guarda tus capturas en una carpeta
 ```markdown
 ### Pantalla de inicio de sesión
 
-![Inicio de sesión](imagenes/login.png)
+![Inicio de sesión](imagenes/inicio.png)
 
 ### Panel de administración
 
-![Panel admin](imagenes/dashboard.png)
+![Panel admin](imagenes/estadisticas.png)
