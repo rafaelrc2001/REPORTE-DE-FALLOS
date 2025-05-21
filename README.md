@@ -59,6 +59,22 @@ El **Instituto Tecnológico Superior de Coatzacoalcos (ITESCO)** es una instituc
 ## 🖼️ Capturas del Sistema
 
 
+# Capturas del Sistema
 
+## Pantalla de inicio de sesión  
 ![Inicio de sesión](https://github.com/rafaelrc2001/REPORTE-DE-FALLOS/blob/main/imagenes/inicio.png?raw=true)  
-![Panel admin](https://github.com/rafaelrc2001/REPORTE-DE-FALLOS/blob/main/imagenes/estadísticas.png?raw=true)
+
+## Panel de administración  
+![Panel admin](https://github.com/rafaelrc2001/REPORTE-DE-FALLOS/blob/main/imagenes/panel_admin.png?raw=true)  
+
+## Formulario de reporte  
+![Formulario de reporte](https://github.com/rafaelrc2001/REPORTE-DE-FALLOS/blob/main/imagenes/formulario_reporte.png?raw=true)  
+
+## Estadísticas  
+![Estadísticas](https://github.com/rafaelrc2001/REPORTE-DE-FALLOS/blob/main/imagenes/estadisticas.png?raw=true)  
+
+## Alerta de mantenimiento  
+![Alerta de mantenimiento](https://github.com/rafaelrc2001/REPORTE-DE-FALLOS/blob/main/imagenes/alerta_mantenimiento.png?raw=true)  
+
+## Historial de fallos  
+![Historial de fallos](https://github.com/rafaelrc2001/REPORTE-DE-FALLOS/blob/main/imagenes/historial_fallos.png?raw=true)  
