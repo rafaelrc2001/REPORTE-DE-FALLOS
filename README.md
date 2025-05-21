@@ -60,12 +60,5 @@ El **Instituto Tecnológico Superior de Coatzacoalcos (ITESCO)** es una instituc
 
 
 
-```markdown
-### Pantalla de inicio de sesión
-
-![Inicio de sesión](imagenes/inicio.png)
-
-### Panel de administración
-
-![Panel admin](imagenes/estadisticas.png)
-
+![Inicio de sesión](https://github.com/rafaelrc2001/REPORTE-DE-FALLOS/blob/main/imagenes/inicio.png?raw=true)  
+![Panel admin](https://github.com/rafaelrc2001/REPORTE-DE-FALLOS/blob/main/imagenes/estadísticas.png?raw=true)
