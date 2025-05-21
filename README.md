@@ -58,7 +58,7 @@ El **Instituto Tecnológico Superior de Coatzacoalcos (ITESCO)** es una instituc
 
 ## 🖼️ Capturas del Sistema
 
-Aquí puedes agregar imágenes de tu sistema. Guarda tus capturas en una carpeta llamada `imagenes/` dentro de tu proyecto y referencia las imágenes así:
+
 
 ```markdown
 ### Pantalla de inicio de sesión
@@ -68,3 +68,4 @@ Aquí puedes agregar imágenes de tu sistema. Guarda tus capturas en una carpeta
 ### Panel de administración
 
 ![Panel admin](imagenes/estadisticas.png)
+
